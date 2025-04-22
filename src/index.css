@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@layer base {
+    .cursor-paw {
+        cursor: url("./logo.png"), auto;
+    }
+
+    .main-color {
+        background-color: #FF914D;
+    }
+
+    .main-color:hover {
+        background-color: #ff8e4d;
+    }
+}
